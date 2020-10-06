@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Hyper Links</title>
+</head>
+<body>
+<h1>LINKS</h1>
+<p>The most important attribute of the  element is the href attribute, which indicates the link's destination. The link text is the part that will be visible to the reader. Clicking on the link text, will send the reader to the specified URL address.</p>
+	<h3><a id="TOP"></a> TYPES</h3>
+	
+		<a href="#ABSOLUTE">1.ABSOLUTE</a>
+		<br>
+		<a href="#RELATIVE">2.RELATIVE</a>
+		<br>
+		<a href="#INTERNAL">3.INTERNAL</a>
+		<br>
+		<a href="#GRAPHICAL">4.GRAPHICAL</a>
+	
+	<h3><a id="ABSOLUTE"></a>ABSOLUTE</h3>
+	<p>Absolute links are links that are given an exact destination. Creating an absolute link can be done with an anchor tag, or a tag. These tags require a destination which is basically where you want the user to go to upon clicking it. Giving your anchor tag a destination is done by giving a value to the href attribute.</p>
+	<a href="https://twitter.com/" >TWITTER</a>
+	<br>
+	<a href="#TOP">TOP</a>
+	<h3><a id="RELATIVE"></a>RELATIVE</h3>
+	<p>A relative link specifies the name of the file to be linked to only as it is related to the current document. This link will be valid only from within the same directory that page2. html is saved in</p>
+	<h5>LOCAL FILE</h5>
+	<p>opens in new window or tab since targer is used as _blank. when clicked opens a file from same folder.</p>
+	<a href="5index.html" target="_blank">INDEX</a>
+	<br>
+	<h5>LOCAL IMAGE</h5>
+	<p>opens in same tab. when clicked an image from same folder opened.</p>
+	<a href="snow.jpg">SNOW</a>
+	<br>
+	<a href="#TOP">TOP</a>
+
+	<h3><a id="INTERNAL"></a>INTERNAL</h3>
+	<P>Internal links are those that point to other web pages (and other type of resources) that are part of the same web application. Since the other pages that are part of the same web application are hosted using the same domain name, there is usually no need to use absolute URLs for the href attribute value</P>
+	<a href="#TOP">TOP</a>
+
+	<h3><a id="GRAPHICAL"></a>IMAGE AS LINKS</h3>
+	<h5>LOCAL REFERENCE</h5>
+	<a href="https://twitter.com/"><img src="snow.jpg" alt="twitter"/></a>
+    <br>
+    <h5>GLOBAL REFERANCE</h5>
+	<a href="https://twitter.com/"><img src="https://www.qries.com/images/banner_logo.png" alt="twitter"/></a>
+	<br>
+	<a href="#TOP">TOP</a>
+</body>
+</html>
